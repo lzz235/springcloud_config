@@ -21,10 +21,10 @@ spring:
    max-total: 5
    max-wait-millis: 200 
 mybatis:
- config-location: classpath:mybatis/mybatis.cfg.xml
- type-aliases-package: com.zzc.entities
+ config-location: classpath:mybatis/mybatis.cfg.xml 
+ type-aliases-package: com.zzc.entity
  mapper-locations:
- - classpath:mybatis/mapper/**/*.xml
+ - classpath:mybatis/mapper/**/*.xml  
 eureka: 
  client: #客户端注册进eureka服务列表内
   service-url: 
@@ -59,7 +59,7 @@ spring:
 
 mybatis:
  config-location: classpath:mybatis/mybatis.cfg.xml
- type-aliases-package: com.atguigu.springcloud.entities
+ type-aliases-package: com.zzc.entity
  mapper-locations:
  - classpath:mybatis/mapper/**/*.xml
 
